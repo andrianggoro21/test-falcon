@@ -4,16 +4,16 @@ import Image from "next/image";
 import Slider from "react-slick";
 
 const videos = [
-  { id: 1, title: "The taste of thing" },
-  { id: 2, title: "The taste of thing" },
-  { id: 3, title: "The taste of thing" },
-  { id: 4, title: "The taste of thing" },
-  { id: 5, title: "The taste of thing" },
-  { id: 6, title: "The taste of thing" },
-  { id: 7, title: "The taste of thing" },
-  { id: 8, title: "The taste of thing" },
-  { id: 9, title: "The taste of thing" },
-  { id: 10, title: "The taste of thing" },
+  { id: 1, title: "Sujud Terakhir Bapak" },
+  { id: 2, title: "Sujud Terakhir Bapak" },
+  { id: 3, title: "Sujud Terakhir Bapak" },
+  { id: 4, title: "Sujud Terakhir Bapak" },
+  { id: 5, title: "Sujud Terakhir Bapak" },
+  { id: 6, title: "Sujud Terakhir Bapak" },
+  { id: 7, title: "Sujud Terakhir Bapak" },
+  { id: 8, title: "Sujud Terakhir Bapak" },
+  { id: 9, title: "Sujud Terakhir Bapak" },
+  { id: 10, title: "Sujud Terakhir Bapak" },
 ];
 
 export default function Home() {
@@ -23,8 +23,8 @@ export default function Home() {
     speed: 500,
     slidesToShow: 7,
     slidesToScroll: 1,
-    autoplay: true,        
-    autoplaySpeed: 2000,   
+    autoplay: true,
+    autoplaySpeed: 2000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -63,7 +63,7 @@ export default function Home() {
         style={{
           ...style,
           display: "block",
-          background: "rgba(0, 0, 0, 0.5)", 
+          background: "rgba(0, 0, 0, 0.5)",
           borderRadius: "50%",
         }}
         onClick={onClick}
@@ -88,7 +88,7 @@ export default function Home() {
   }
 
   return (
-    <div className="px-8 py-6 md:px-20 bg-gray-900 text-white"> 
+    <div className="px-8 py-6 md:px-20 bg-gray-900 text-white">
       <div className="mt-2 mb-10">
         <Image
           src="/images/banner.jpg"
